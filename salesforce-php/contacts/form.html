@@ -1,0 +1,133 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+    <head>
+        <title>Contacts Form</title>
+    </head>
+	<body>
+    	<form	name="ContactsForm"
+				action=""
+				method="POST"
+				enctype="multipart/form-data"
+				data-bitzer-data-url="data.php"
+				data-bitzer-desc="Contact Form"
+				data-bitzer-online-only="false"
+				data-bitzer-pagination="true"
+				data-bitzer-read-only="true"
+				data-bitzer-sync-scheme="WEBAPP_SOFT"
+				data-bitzer-title="Contacts"
+				data-bitzer-type="COMPONENT">
+			
+			<table>
+				<tr>
+					<td>Contact ID</td>
+					<td>
+						<input	type="text" 
+								name="expenseItemID" 
+								value=""
+								data-bitzer-primary-key="true"
+								data-bitzer-type="string">
+					</td>
+				</tr>
+				
+				<tr>
+					<td>Title</td>
+					<td>
+						<input	type="text"
+								name="title"
+								maxlength="5"
+								size="5"
+								value=""
+								data-bitzer-label="Title"
+								data-bitzer-type="string"
+								data-bitzer-help-text="Conatact Title"
+								data-bitzer-display-group-name="Contact Info"
+								data-bitzer-display-group-order="1"
+								data-bitzer-display-group-title="Contact Info">
+					</td>
+				</tr>
+				<tr>
+					<td>First Name</td>
+					<td>
+						<input	type="text"
+								name="firstname"
+								maxlength="50"
+								size="5"
+								value=""
+								data-bitzer-label="First Name"
+								data-bitzer-type="string"
+								data-bitzer-help-text="Conatact First Name"
+								data-bitzer-display-group-name="Contact Info"
+								data-bitzer-display-group-order="1"
+								data-bitzer-display-group-title="Contact Info">
+					</td>
+				</tr>
+								
+				<tr>
+					<td>Last Name</td>
+					<td>
+						<input	type="text"
+								name="lastname"
+								maxlength="50"
+								size="10"
+								value=""
+								data-bitzer-label="Last Name"
+								data-bitzer-type="string"
+								data-bitzer-help-text="Contact Last Name"
+								data-bitzer-display-group-order="1"
+								data-bitzer-display-group-name="Contact Info"
+								>
+					</td>
+				</tr>
+				<tr>
+					<td>Email</td>
+					<td>
+						<input	type="text"
+								name="email"
+								maxlength="100"
+								size="30"
+								value=""
+								data-bitzer-type="email"
+								data-bitzer-label="Email"
+								data-bitzer-help-text="Email"
+								data-bitzer-display-group-order="1"
+								data-bitzer-display-group-name="Contact Info">
+		            </td>
+				</tr>
+				<tr>
+					<td>Department</td>
+					<td>
+						<input	type="text"
+								name="department"
+								maxlength="100"
+								size="30"
+								value=""
+								data-bitzer-type="string"
+								data-bitzer-label="Department"
+								data-bitzer-help-text="Department"
+								data-bitzer-display-group-order="1"
+								data-bitzer-display-group-name="Contact Info">
+		            </td>
+				</tr>
+				<tr>
+					<td>Phone</td>
+					<td>
+						<input	type="text"
+								name="phone"
+								maxlength="100"
+								size="30"
+								value=""
+								data-bitzer-type="tel"
+								data-bitzer-label="Phone"
+								data-bitzer-help-text="Contact Phone"
+								data-bitzer-display-group-order="1"
+								data-bitzer-display-group-name="Contact Info">
+		            </td>
+				</tr>
+				
+				
+			</table>
+		</form>
+    </body>
+</html>
+
