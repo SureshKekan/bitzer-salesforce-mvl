@@ -59,6 +59,24 @@
                     data-bitzer-display-group-title="Account Info"
                     >
             <input  type="text"
+                    name="AccountNumber"
+                    readonly
+                    data-bitzer-label="Account Number"
+                    data-bitzer-short-label="Acct #"
+                    data-bitzer-type="string"
+                    data-bitzer-help-text="Account number for account"
+                    data-bitzer-display-group-name="account-info"
+                    >
+            <input  type="text"
+                    name="Site"
+                    readonly
+                    data-bitzer-label="Account Site"
+                    data-bitzer-short-label="Site"
+                    data-bitzer-type="string"
+                    data-bitzer-help-text="Site of account"
+                    data-bitzer-display-group-name="account-info"
+                    >
+            <input  type="text"
                     name="Type"
                     readonly
                     data-bitzer-label="Type"
@@ -99,7 +117,7 @@
                     data-bitzer-short-label="Fax"
                     data-bitzer-type="fax"
                     data-bitzer-help-text="Fax"
-                    data-bitzer-display-group-name="account-info"
+                    data-bitzer-display-group-name="contact-info"
                     >
 
             <input readonly

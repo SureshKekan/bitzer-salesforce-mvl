@@ -12,6 +12,6 @@
 PartnerConnection connection = (PartnerConnection) session.getAttribute("connection");
 
 if (connection == null)
-    response.sendRedirect("/salesforce/login.jsp");
+    response.sendRedirect("/salesforce-mvl/login.jsp");
 
 %>

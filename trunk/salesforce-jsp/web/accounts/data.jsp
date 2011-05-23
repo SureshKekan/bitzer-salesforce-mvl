@@ -28,11 +28,25 @@ if (connection != null) {
 
     component.setPrimaryKeyField(new Field("Id", "string"));
     component.addField(new Field("Name", "string"));
+    component.addField(new Field("AccountNumber", "string"));
+    component.addField(new Field("Site", "string"));
     component.addField(new Field("Type", "string"));
     component.addField(new Field("Industry", "string"));
     component.addField(new Field("Website", "string"));
     component.addField(new Field("Phone", "string"));
     component.addField(new Field("Fax", "string"));
+    component.addField(new Field("AnnualRevenue", "number"));
+    component.addField(new Field("Rating", "string"));
+    component.addField(new Field("Ownership", "string"));
+    component.addField(new Field("NumberOfEmployees", "integer"));
+    component.addField(new Field("Sic", "string"));
+    component.addField(new Field("SLA__c", "string"));
+    component.addField(new Field("SLAExpirationDate__c", "date"));
+    component.addField(new Field("SLASerialNumber__c", "string"));
+    component.addField(new Field("NumberOfLocations__c", "integer"));
+    component.addField(new Field("UpsellOpportunity__c", "string"));
+    component.addField(new Field("Active__c", "string"));
+    component.addField(new Field("CreatedDate", "date"));
     component.addField(new Field("LastModifiedDate", "datetime"));
     component.addField(new Field("IsDeleted", "booblean"));
     component.setsObjectName("Account");

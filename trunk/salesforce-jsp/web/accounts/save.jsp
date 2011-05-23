@@ -23,6 +23,7 @@ saveComponent.addField(new Field("Industry", "string"));
 saveComponent.addField(new Field("Website", "string"));
 saveComponent.addField(new Field("Phone", "string"));
 saveComponent.addField(new Field("Fax", "string"));
+saveComponent.addField(new Field("Email__c", "string"));
 saveComponent.addField(new Field("LastModifiedDate", "datetime"));
 saveComponent.setsObjectName("Account");
 
