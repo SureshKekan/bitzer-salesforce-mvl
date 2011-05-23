@@ -23,7 +23,7 @@
             data-bitzer-library-desc="Salesforce"
             data-bitzer-library-timezone-offset="-7"
             data-bitzer-library-style="TABLE"
-            data-bitzer-readonly="true"
+            data-bitzer-read-only="true"
             data-bitzer-library-image="images/sf.jpeg"
             data-bitzer-single-component="false">
             <LI data-bitzer-components="true">Components
